@@ -1,5 +1,5 @@
 # workflowの名前
-name: Sample actions
+name: ワークフロー名を日本語にできるか確認
 
 # トリガーの設定
 on:
