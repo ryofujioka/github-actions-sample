@@ -1,10 +1,12 @@
 # workflowの名前
+# ワークフロー名は日本語にできる
 name: ワークフロー名を日本語にできるか確認
 
 # トリガーの設定
 on:
   push:
     branches: main # mainブランチの場合はmainに変更
+  workflow_dispatch: # workflow_dispatchを指定することにより、GitHub上に"Run workflow"ボタンが表示される
 
 jobs:
   build:
